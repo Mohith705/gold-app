@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="font-inter mt-[40px]">
       <body className={inter.className}>
-        {children}
+        {children }
       </body>
     </html>
   );
