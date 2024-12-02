@@ -12,8 +12,6 @@ const page = () => {
   const [password, setPassword] = useState('');
   const [tenantName, setTenantName] = useState('');
 
-  
-
   const { push } = useRouter();
 
   const handleSubmit = async (e) => {
